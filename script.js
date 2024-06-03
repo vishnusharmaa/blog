@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     postForm.addEventListener('submit', (e) => {
         e.preventDefault();
+        console.log("hello!")
         
         const postTitle = document.getElementById('postTitle').value;
         const postContent = document.getElementById('postContent').value;
